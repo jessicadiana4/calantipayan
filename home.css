@@ -1,0 +1,17 @@
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+.slider-wrapper .image-list{
+display: grid;
+gap: 9px;
+overflow-x: auto;
+scrollbar-width: none;
+grid-template-columns: repeat(6, 1fr);
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+}

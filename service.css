@@ -1,0 +1,28 @@
+
+.org-tree ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .org-tree ul ul {
+    margin-left: 20px; /* Adjust as needed */
+  }
+  
+  .org-tree li {
+    display: grid;
+    flex-direction: column;
+  }
+  
+  .org-tree li > span {
+    background-color: #f0f0f0; /* Background color */
+    border: 1px solid #ccc; /* Border color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px; /* Adjust as needed */
+  }
+  
+  .org-tree li > ul {
+    margin-top: 10px;
+  }
+  
